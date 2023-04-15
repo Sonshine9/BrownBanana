@@ -1,0 +1,95 @@
+body, html {
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+}
+
+.main-header {
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+  background-color: #988e98;
+  margin-bottom: 36px;
+}
+
+.main-header h1 {
+  font-size: 2em;
+  margin: 0;
+  color: white;
+}
+
+.main-header h3 {
+  font-size: 1.25em;
+  margin: 0;
+  color: #fa923f;
+}
+.button1 {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button1:hover {
+  background-color: darkblue;
+}
+
+.button2 {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button2:hover {
+  background-color: darkred;
+}
+
+
+.center-image {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+.center-title {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+body {
+  background-image: url('C:\Users\neman\OneDrive\Desktop\BB\public\src\images\brooke-lark-wMzx2nBdeng-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* Define styles for the container */
+.container {
+  display: flex;
+  align-items: center;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+/* Define styles for the search query input */
+.query-input {
+  flex-grow: 1;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Define styles for the search button */
+.search-btn {
+  margin-left: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
